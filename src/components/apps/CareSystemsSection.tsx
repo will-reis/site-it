@@ -17,12 +17,12 @@ import type { LucideIcon } from "lucide-react";
 // Para adicionar ou alterar funcionalidades, modifique estes arrays:
 
 const careSystemInfo = {
-  title: "PEP CEJAM",
+  title: "PEP HealthCorp",
   fullTitle: "Prontuário Eletrônico do Paciente",
   description:
-    "Ferramentas tecnológicas fundamentais para a gestão moderna das unidades de saúde gerenciadas pelo CEJAM. Permitem acesso rápido a indicadores detalhados de atendimento, dados epidemiológicos e protocolos para acompanhamento de doenças, além de integrar o acompanhamento do paciente em diferentes níveis de atenção, garantindo um histórico unificado de usuários e melhorando a comunicação entre as equipes de saúde e pacientes.",
-  link: "https://it.cejam.org.br/sistemas-assistenciais",
-  suppliers: ["MedicSys", "TOTVS"],
+    "Ferramentas tecnológicas fundamentais para a gestão moderna das unidades de saúde gerenciadas pelo HealthCorp. Permitem acesso rápido a indicadores detalhados de atendimento, dados epidemiológicos e protocolos para acompanhamento de doenças, além de integrar o acompanhamento do paciente em diferentes níveis de atenção, garantindo um histórico unificado de usuários e melhorando a comunicação entre as equipes de saúde e pacientes.",
+  link: "#sistemas",
+  suppliers: ["HealthSys", "TOTVS"],
 };
 
 const careFeatures: CareFeature[] = [
@@ -70,7 +70,7 @@ const careFeatures: CareFeature[] = [
     id: "historico",
     name: "Histórico Unificado",
     description:
-      "Histórico unificado de usuários compartilhado entre todas as unidades da rede CEJAM.",
+      "Histórico unificado de usuários compartilhado entre todas as unidades da rede HealthCorp.",
     Icon: Clock,
     color: "#f59e0b",
   },

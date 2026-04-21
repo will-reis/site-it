@@ -24,7 +24,7 @@ const adminSubsystems: AdminSubsystem[] = [
     name: "ERP TOTVS",
     subtitle: "Enterprise Resource Planning",
     description:
-      "Sistema integrado de gestão empresarial que permite a integração entre setores, facilitando a tomada de decisão, aumentando a eficiência do fluxo de trabalho e melhorando a precisão dos dados e informações. Com a ERP, a gestão do CEJAM é mais integrada e eficiente.",
+      "Sistema integrado de gestão empresarial que permite a integração entre setores, facilitando a tomada de decisão, aumentando a eficiência do fluxo de trabalho e melhorando a precisão dos dados e informações. Com a ERP, a gestão do HealthCorp é mais integrada e eficiente.",
     Icon: Building2,
     color: "#3b82f6",
     gradient: "from-blue-500 to-indigo-600",
@@ -38,11 +38,11 @@ const adminSubsystems: AdminSubsystem[] = [
     ],
   },
   {
-    id: "icejam",
-    name: "iCEJAM",
+    id: "ihealthcorp",
+    name: "iHealthCorp",
     subtitle: "Sistema Legado",
     description:
-      "Sistema institucional do CEJAM que suporta processos administrativos essenciais. Utilizado para gestão financeira, contratos, patrimônio, prestação de contas e logística de transporte entre unidades.",
+      "Sistema institucional do HealthCorp que suporta processos administrativos essenciais. Utilizado para gestão financeira, contratos, patrimônio, prestação de contas e logística de transporte entre unidades.",
     Icon: Database,
     color: "#f59e0b",
     gradient: "from-amber-500 to-orange-600",
@@ -55,8 +55,8 @@ const adminSubsystems: AdminSubsystem[] = [
     ],
   },
   {
-    id: "sis-cejam",
-    name: "SIS CEJAM",
+    id: "sis-healthcorp",
+    name: "SIS HealthCorp",
     subtitle: "Sistema de Indicadores e Performance",
     description:
       "Plataforma de indicadores e desempenho institucional. Concentra ferramentas de avaliação, monitoramento epidemiológico e gestão estratégica de pessoas.",
@@ -238,7 +238,7 @@ export default function AdminSystemsSection() {
           </h2>
 
           <p className="text-slate-400 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
-            Plataformas que sustentam a operação corporativa do CEJAM,
+            Plataformas que sustentam a operação corporativa do HealthCorp,
             integrando finanças, patrimônio, contratos e indicadores de
             desempenho.
           </p>

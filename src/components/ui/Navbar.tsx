@@ -38,12 +38,12 @@ export default function Navbar() {
         <Link to="/" className="flex items-center gap-2">
           <img
             className="w-10 object-contain"
-            src="https://midias.medicsys.com.br/logoCejam.png"
-            alt="CEJAM Tecnologia logo"
+            src="https://placehold.co/400x120/162647/FFFFFF?text=HealthCorp"
+            alt="HealthCorp Tecnologia logo"
           />
           <div className="hidden sm:block">
             <span className="font-logo text-sm font-bold text-white">
-              CEJAM
+              HealthCorp
             </span>
             <span className="block text-[10px] uppercase tracking-widest text-slate-500">
               Inovação & Tecnologia

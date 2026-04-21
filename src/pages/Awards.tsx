@@ -12,9 +12,9 @@ const awards = [
   {
     id: 1,
     title: "Excelência em Saúde",
-    org: "Organização Nacional de Acreditação (ONA)",
+    org: "Organização Nacional de Acreditação (Acreditação)",
     year: "2024",
-    desc: "Até 2024, 38 unidades do CEJAM possuem selos da ONA, 8 unidades com ONA Nível 3 (Ouro), 1 unidade com ONA Nível 2 (Prata) e 29 unidades com ONA Nível 1 (Bronze)",
+    desc: "Até 2024, 38 unidades do HealthCorp possuem selos de acreditação, 8 unidades com Acreditação Nível 3 (Ouro), 1 unidade com Acreditação Nível 2 (Prata) e 29 unidades com Acreditação Nível 1 (Bronze)",
     icon: Trophy,
     color: "from-yellow-400 via-orange-500 to-yellow-600",
   },

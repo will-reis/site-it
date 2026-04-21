@@ -7,12 +7,12 @@ const items = [
     id: "quality",
     icon: FileText,
     label: "Qualidade da TI",
-    href: "https://sites.google.com/cejamcloud.com.br/sgqcejam/administra%C3%A7%C3%A3o/inova%C3%A7%C3%A3o-e-tecnologia?authuser=1", // Exemplo de link externo
+    href: "#sgq", // Exemplo de link externo
   },
   {
     id: "sistemas",
     icon: Monitor,
-    label: "Sistemas CEJAM",
+    label: "Sistemas HealthCorp",
     href: "/Apps",
   },
   {

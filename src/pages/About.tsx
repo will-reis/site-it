@@ -13,7 +13,7 @@ const timeline = [
   {
     year: "1991",
     title: "A Fundação",
-    desc: "Nasce o CEJAM, fruto do idealismo do Dr. João Amorim, com a missão de transformar a saúde pública.",
+    desc: "Nasce o HealthCorp, fruto do idealismo do Dr. Roberto Silva, com a missão de transformar a saúde pública.",
     img: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?q=80&w=1920&auto=format&fit=crop",
   },
   {
@@ -112,7 +112,7 @@ export default function About() {
             <br />É sobre <span className="text-purple-500">Humanidade.</span>
           </h2>
           <p className="text-base sm:text-lg md:text-xl text-slate-400 leading-relaxed">
-            A tecnologia é a ferramenta, mas o toque humano é a cura. No CEJAM,
+            A tecnologia é a ferramenta, mas o toque humano é a cura. No HealthCorp,
             inovamos para que nossos profissionais tenham mais tempo para o que
             realmente importa: olhar nos olhos do paciente.
           </p>

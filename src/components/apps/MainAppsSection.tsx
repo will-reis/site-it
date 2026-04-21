@@ -26,7 +26,7 @@ const mainApps = [
   {
     id: "cpm",
     name: "CPM",
-    tagline: "Cejam na Palma da Mão",
+    tagline: "HealthCorp na Palma da Mão",
     description:
       "O Super App do colaborador. Tudo o que você precisa, do holerite à reserva de mesa, centralizado em um toque.",
     features: ["Holerite Digital", "Reserva de Espaços", "Comunicação Interna"],
@@ -221,7 +221,7 @@ export default function MainAppsSection() {
           </h2>
           <p className="text-slate-400 text-base sm:text-lg max-w-xl mx-auto">
             As ferramentas que estão transformando a rotina dos colaboradores
-            CEJAM.
+            HealthCorp.
           </p>
         </motion.div>
       </section>

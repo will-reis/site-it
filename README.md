@@ -1,73 +1,48 @@
-# React + TypeScript + Vite
+# Site IT Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é o repositório do projeto **Site IT Portfolio**, uma aplicação web desenvolvida para apresentar informações, projetos, estrutura organizacional (CIA, Equipe, Unidades) e mais. O projeto é construído com tecnologias modernas do ecossistema React.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias Integradas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **[React 19](https://react.dev/)**: Biblioteca frontend para criação de interfaces de usuário ricas e interativas.
+- **[Vite 7](https://vitejs.dev/)**: Bundler ultrarrápido para desenvolvimento frontend.
+- **[TypeScript 5](https://www.typescriptlang.org/)**: Tipagem estática para maior segurança e qualidade de código.
+- **[Tailwind CSS 4](https://tailwindcss.com/)**: Framework CSS utilitário para estilização rápida e responsiva.
+- **[Framer Motion](https://www.framer.com/motion/)**: Biblioteca para animações fluidas baseadas em React.
+- **[GSAP](https://gsap.com/)**: Plataforma de animação padrão da web.
+- **[React Router v7](https://reactrouter.com/)**: Gerenciamento de rotas e navegação.
+- **[XYFlow (React Flow)](https://reactflow.dev/)**: Exibição e criação de fluxogramas ou organogramas interativos.
+- **[Lucide React](https://lucide.dev/)**: Ferramenta de ícones leves e consistentes.
 
-## React Compiler
+## 📁 Estrutura do Projeto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Abaixo uma visão geral da arquitetura de diretórios em `src/`:
 
-## Expanding the ESLint configuration
+- `assets/`: Imagens, ícones, fontes locais.
+- `components/`: Componentes reutilizáveis (UI, seções vitrine como HeroSection, AboutSection).
+- `pages/`: Páginas mapeadas no roteamento (Home, About, Apps, Awards, CIA, Team, Units).
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## scripts Disponíveis
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+No diretório do projeto, você pode rodar os seguintes comandos:
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### `npm run dev`
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Roda o painel em modo de desenvolvimento (HMR ativo).
+Abra [http://localhost:5173](http://localhost:5173) (ou a porta informada pelo Vite) para visualizar no navegador.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### `npm run build`
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Compila e transpila o TypeScript e o Vite prepara o pacote para produção na pasta `dist/`.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### `npm run preview`
+
+Serve os arquivos de produção em um servidor estático local temporário.
+
+### `npm run lint`
+
+Roda o ESLint para encontrar e reportar eventuais problemas no código (TS/TSX).
+
+## 📄 Licença
+
+Este projeto é de uso privado.

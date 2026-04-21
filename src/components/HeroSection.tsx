@@ -106,7 +106,7 @@ export default function Hero() {
         {/* Badge "Ao Vivo" */}
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 text-xs font-bold uppercase tracking-widest mb-6 backdrop-blur-md">
           <Activity className="w-3 h-3 animate-pulse" />
-          <span className="animate-pulse">C.I.A. Online</span>
+          <span className="animate-pulse">A.I.. Online</span>
         </div>
 
         {/* Título com Digitação */}
@@ -156,7 +156,7 @@ export default function Hero() {
             className="group relative inline-flex items-center justify-center gap-3 px-8 py-4 bg-white text-slate-950 rounded-full font-bold transition-all duration-300 hover:bg-cyan-50 hover:shadow-[0_0_30px_rgba(6,182,212,0.4)] hover:scale-105 active:scale-[0.98]"
           >
             <Cpu className="w-5 h-5 text-cyan-600" />
-            <span>Conheça a C.I.A.</span>
+            <span>Conheça a A.I..</span>
             <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
           </Link>
 

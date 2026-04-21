@@ -16,8 +16,8 @@
   --font-mono: "JetBrains Mono", ui-monospace, monospace;
   --font-logo: "Flexo", sans-serif;
 
-  --color-cejam-blue: #162647;
-  --color-cejam-cyan: #00adb8;
+  --color-brand-blue: #162647;
+  --color-brand-cyan: #00adb8;
 
   --color-surface: oklch(0.21 0.02 264 / 0.5);
   --color-surface-border: oklch(0.32 0.02 264);

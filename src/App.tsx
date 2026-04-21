@@ -35,7 +35,7 @@ export default function App() {
   }, [isLoading]);
 
   return (
-    <div className="relative w-full font-sans text-slate-200 antialiased selection:bg-cejam-cyan selection:text-white">
+    <div className="relative w-full font-sans text-slate-200 antialiased selection:bg-brand-cyan selection:text-white">
       <AnimatePresence mode="wait">
         {isLoading && <Intro key="intro" onComplete={handleIntroComplete} />}
       </AnimatePresence>

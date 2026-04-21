@@ -8,7 +8,7 @@ import {
   ChevronDown,
 } from "lucide-react";
 import MainAppsSection from "../components/apps/MainAppsSection";
-import MedicsysSection from "../components/apps/MedicsysSection";
+import HealthSysSection from "../components/apps/HealthSysSection";
 import AdminSystemsSection from "../components/apps/AdminSystemsSection";
 import CareSystemsSection from "../components/apps/CareSystemsSection";
 
@@ -20,7 +20,7 @@ const sections = [
     Icon: Bot,
     color: "#00adb8",
   },
-  { id: "medicsys", label: "MedicSys", Icon: Activity, color: "#14b8a6" },
+  { id: "healthsys", label: "HealthSys", Icon: Activity, color: "#14b8a6" },
   {
     id: "sistemas-administrativos",
     label: "Administrativos",
@@ -195,8 +195,8 @@ export default function Apps() {
       {/* Seção 1: Principais Apps */}
       <MainAppsSection />
 
-      {/* Seção 2: MedicSys */}
-      <MedicsysSection />
+      {/* Seção 2: HealthSys */}
+      <HealthSysSection />
 
       {/* Seção 3: Sistemas Administrativos */}
       <AdminSystemsSection />

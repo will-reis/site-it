@@ -7,9 +7,9 @@ const footerLinks = [
   {
     title: "Ecossistema",
     links: [
-      { text: "Inteligência Artificial do CEJAM", href: "/sistemas" },
+      { text: "Inteligência Artificial do HealthCorp", href: "/sistemas" },
       { text: "App Palma da Mão", href: "/sistemas" },
-      { text: "Medicsys", href: "/sistemas" },
+      { text: "HealthSys", href: "/sistemas" },
       { text: "Meu RH", href: "/sistemas" },
     ],
   },
@@ -26,15 +26,15 @@ const footerLinks = [
     links: [
       {
         text: "Gestão de Qualidade",
-        href: "https://sites.google.com/cejamcloud.com.br/sgqcejam/administra%C3%A7%C3%A3o/inova%C3%A7%C3%A3o-e-tecnologia?authuser=1",
+        href: "#sgq",
       },
-      { text: "Medicsys", href: "https://cejam.medicsys.com.br/Login" },
+      { text: "HealthSys", href: "#login" },
       {
         text: "Fale Conosco",
-        href: "https://www.cejamcloud.com.br/fale-com-a-gente",
+        href: "#contato",
       },
       {
-        text: "CEJAM em Números",
+        text: "HealthCorp em Números",
         href: "https://drive.google.com/file/d/1SWgoQLM751z1ED21eLfI5VmKEEGM9aTN/view",
       },
     ],
@@ -45,10 +45,10 @@ const socialLinks = [
   { Icon: Github, href: "https://github.com/", label: "GitHub" },
   {
     Icon: Linkedin,
-    href: "https://www.linkedin.com/company/cejam/",
+    href: "#linkedin",
     label: "LinkedIn",
   },
-  { Icon: Globe, href: "https://www.cejam.org.br/", label: "Site CEJAM" },
+  { Icon: Globe, href: "#site-oficial", label: "Site HealthCorp" },
 ];
 
 interface FooterProps {
@@ -100,12 +100,12 @@ export default function Footer({ onVisibilityChange }: FooterProps) {
             <div className="flex items-center gap-3">
               <img
                 className="w-10 object-contain"
-                src="https://midias.medicsys.com.br/logoCejam.png"
-                alt="CEJAM Tecnologia logo"
+                src="https://placehold.co/400x120/162647/FFFFFF?text=HealthCorp"
+                alt="HealthCorp Tecnologia logo"
               />
               <div>
                 <h3 className="font-logo text-xl font-bold text-white">
-                  CEJAM
+                  HealthCorp
                 </h3>
                 <p className="text-xs uppercase tracking-widest text-cyan-500 font-bold">
                   Tecnologia
@@ -116,7 +116,7 @@ export default function Footer({ onVisibilityChange }: FooterProps) {
             <div className="flex items-start gap-3 text-sm text-slate-400 leading-relaxed">
               <MapPin className="w-4 h-4 mt-1 text-slate-500 shrink-0" />
               <p>
-                Rua Dr. Lund, 41 - Liberdade <br /> Sao Paulo, SP - Brasil
+                Rua Dr. Castro, 5487 - Liberdade <br /> Sao Paulo, SP - Brasil
               </p>
             </div>
 
@@ -176,12 +176,12 @@ export default function Footer({ onVisibilityChange }: FooterProps) {
         {/* ── RODAPÉ INFERIOR ── */}
         <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs font-medium text-slate-500">
           <p>
-            &copy; {new Date().getFullYear()} CEJAM. Todos os direitos
+            &copy; {new Date().getFullYear()} HealthCorp. Todos os direitos
             reservados.
           </p>
           <div className="flex items-center gap-6">
             <a
-              href="https://www.cejam.org.br/politica-de-privacidade"
+              href="#privacidade"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-white transition-colors"
@@ -189,7 +189,7 @@ export default function Footer({ onVisibilityChange }: FooterProps) {
               Privacidade
             </a>
             <a
-              href="https://www.cejam.org.br/"
+              href="#site-oficial"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-white transition-colors"

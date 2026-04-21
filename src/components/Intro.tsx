@@ -20,16 +20,16 @@ export default function Intro({ onComplete }: { onComplete?: () => void }) {
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
             className="w-40 object-contain"
-            src="https://midias.medicsys.com.br/logoCejam.png"
-            alt="CEJAM Tecnologia logo"
+            src="https://placehold.co/400x120/162647/FFFFFF?text=HealthCorp"
+            alt="HealthCorp Tecnologia logo"
           />
           <motion.h1
             initial={{ x: 100, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
-            className="cejam-logo text-6xl md:text-8xl font-bold text-white tracking-tighter"
+            className="brand-logo text-6xl md:text-8xl font-bold text-white tracking-tighter"
           >
-            CEJAM
+            HealthCorp
           </motion.h1>
         </div>
       </div>

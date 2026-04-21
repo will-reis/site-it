@@ -12,14 +12,14 @@ const apps = [
       "Sua copiloto digital no dia a dia. Atuando como auditora consultiva, ela eleva a barra da qualidade e revoluciona o suporte de TI: tire dúvidas técnicas e abra chamados complexos em segundos, conversando diretamente com nossa IA.",
     image:
       "https://images.pexels.com/photos/17483868/pexels-photo-17483868.jpeg?auto=format&fit=crop&q=80&w=600",
-    gradient: "from-cejam-cyan to-blue-600",
+    gradient: "from-brand-cyan to-blue-600",
     glow: "#00adb8",
     link: "/cia",
     phone: "right", // celular na direita, texto na esquerda
   },
   {
     id: 2,
-    title: "Cejam na Palma da Mão",
+    title: "HealthCorp na Palma da Mão",
     category: "SUPER APP",
     description:
       "O Hub definitivo do colaborador. Centraliza Dashboards, Paytrack e Comunicação Interna. O destaque é o 'Meu Lugar': a gestão inteligente do trabalho híbrido que permite reservar sua estação de trabalho presencial em tempo real.",

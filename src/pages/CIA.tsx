@@ -16,14 +16,14 @@ import {
 import { Link } from "react-router-dom";
 import AIOrb from "../components/Orb";
 
-// ── Diálogos sequenciais da C.I.A ──
+// ── Diálogos sequenciais da A.I. ──
 const dialogues = [
-  "Olá. Eu sou a C.I.A a Inteligência Artificial do CEJAM.",
+  "Olá. Eu sou a Assistente Virtual a Inteligência Artificial do HealthCorp.",
   "Processo milhões de dados clínicos por segundo para garantir que nenhuma decisão médica seja tomada no escuro.",
   "Vamos explorar o que eu posso fazer.",
 ];
 
-// ── Capacidades da C.I.A ──
+// ── Capacidades da A.I. ──
 const capabilities = [
   {
     icon: BrainCircuit,
@@ -201,7 +201,7 @@ export default function CIA() {
             }`}
           />
           <span className="text-xs font-mono text-slate-500 tracking-widest uppercase">
-            {isSpeaking ? "Processando..." : "C.I.A Online"}
+            {isSpeaking ? "Processando..." : "A.I. Online"}
           </span>
         </motion.div>
 
@@ -333,7 +333,7 @@ export default function CIA() {
               em decisões que salvam vidas
             </h2>
             <p className="text-slate-400 max-w-2xl mx-auto text-lg">
-              A C.I.A combina tecnologia de ponta com experiência clínica para
+              A A.I. combina tecnologia de ponta com experiência clínica para
               criar um ecossistema de saúde mais inteligente e responsivo.
             </p>
           </motion.div>
@@ -400,7 +400,7 @@ export default function CIA() {
             className="relative z-10"
           >
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6">
-              Pronto para ver a C.I.A
+              Pronto para ver a A.I.
               <br />
               <span className="text-cyan-500">em ação?</span>
             </h2>

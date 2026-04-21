@@ -17,9 +17,9 @@ import {
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 
-// ── DADOS DOS MÓDULOS MEDICSYS ──────────────────────────────────────────
+// ── DADOS DOS MÓDULOS HEALTHSYS ──────────────────────────────────────────
 // Para adicionar ou alterar módulos, modifique este array:
-const medicsysModules: MedicsysModule[] = [
+const healthSysModules: HealthSysModule[] = [
   {
     id: "acolhimento",
     name: "Acolhimento",
@@ -113,23 +113,23 @@ const medicsysModules: MedicsysModule[] = [
   },
 ];
 
-// ── INFO GERAL DO MEDICSYS ──────────────────────────────────────────────
-const medicsysInfo = {
-  title: "MedicSys",
+// ── INFO GERAL DO HEALTHSYS ──────────────────────────────────────────────
+const healthSysInfo = {
+  title: "HealthSys",
   subtitle: "Plataforma Integrada de Gestão Hospitalar",
   description:
-    "O MedicSys é o coração digital das unidades de saúde gerenciadas pelo CEJAM. Uma plataforma modular e integrada que conecta todos os processos — do acolhimento à gestão de qualidade — em um único ecossistema inteligente.",
+    "O HealthSys é o coração digital das unidades de saúde gerenciadas pelo HealthCorp. Uma plataforma modular e integrada que conecta todos os processos — do acolhimento à gestão de qualidade — em um único ecossistema inteligente.",
   highlights: [
-    { label: "Módulos Ativos", value: `${medicsysModules.length}` },
+    { label: "Módulos Ativos", value: `${healthSysModules.length}` },
     { label: "Unidades Conectadas", value: "100+" },
     { label: "Usuários Diários", value: "5.000+" },
   ],
-  link: "https://cejam.medicsys.com.br/Login",
-  docsLink: "https://wiki.medicsys.com.br",
+  link: "#login",
+  docsLink: "#wiki",
 };
 
 // ── TIPOS ───────────────────────────────────────────────────────────────
-interface MedicsysModule {
+interface HealthSysModule {
   id: string;
   name: string;
   description: string;
@@ -145,7 +145,7 @@ function ModuleCard({
   isSelected,
   onSelect,
 }: {
-  mod: MedicsysModule;
+  mod: HealthSysModule;
   index: number;
   isSelected: boolean;
   onSelect: () => void;
@@ -228,12 +228,12 @@ function ModuleCard({
 }
 
 // ── SEÇÃO PRINCIPAL ─────────────────────────────────────────────────────
-export default function MedicsysSection() {
+export default function HealthSysSection() {
   const [selectedId, setSelectedId] = useState<string | null>(null);
 
   return (
     <section
-      id="medicsys"
+      id="healthsys"
       className="relative py-24 sm:py-32 lg:py-40 px-4 sm:px-6 overflow-hidden scroll-mt-20"
     >
       {/* Background decorations */}
@@ -260,28 +260,28 @@ export default function MedicsysSection() {
             </span>
 
             <h2 className="font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-white leading-none">
-              Medic
+              Health
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-cyan-400">
                 Sys
               </span>
             </h2>
 
             <p className="text-slate-400 text-base sm:text-lg lg:text-xl leading-relaxed max-w-xl">
-              {medicsysInfo.description}
+              {healthSysInfo.description}
             </p>
 
             <div className="flex flex-wrap gap-3 pt-2">
               <a
-                href={medicsysInfo.link}
+                href={healthSysInfo.link}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-teal-500/10 border border-teal-500/30 text-teal-400 text-sm font-semibold hover:bg-teal-500/20 transition-colors"
               >
-                Acessar MedicSys
+                Acessar HealthSys
                 <ExternalLink className="w-3.5 h-3.5" />
               </a>
               <a
-                href={medicsysInfo.docsLink}
+                href={healthSysInfo.docsLink}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full border border-white/10 text-slate-400 text-sm font-semibold hover:border-white/20 hover:text-white transition-colors"
@@ -301,7 +301,7 @@ export default function MedicsysSection() {
             className="flex items-end"
           >
             <div className="grid grid-cols-3 gap-4 w-full">
-              {medicsysInfo.highlights.map((h, i) => (
+              {healthSysInfo.highlights.map((h, i) => (
                 <div
                   key={h.label}
                   className="relative overflow-hidden rounded-2xl border border-white/[0.06] bg-white/[0.02] p-5 sm:p-6 text-center"
@@ -338,7 +338,7 @@ export default function MedicsysSection() {
           </motion.h3>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4">
-            {medicsysModules.map((mod, i) => (
+            {healthSysModules.map((mod, i) => (
               <ModuleCard
                 key={mod.id}
                 mod={mod}
