@@ -1,6 +1,6 @@
-# Site IT Portfolio
+# Site IT
 
-Este é o repositório do projeto **Site IT Portfolio**, uma aplicação web desenvolvida para apresentar informações, projetos, estrutura organizacional (CIA, Equipe, Unidades) e mais. O projeto é construído com tecnologias modernas do ecossistema React.
+Este é o repositório do projeto **Site IT**, uma aplicação web desenvolvida para apresentar informações, projetos, estrutura organizacional (CIA, Equipe, Unidades) e mais. O projeto é construído com tecnologias modernas do ecossistema React.
 
 ## 🚀 Tecnologias Integradas
 
